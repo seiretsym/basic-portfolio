@@ -1,5 +1,37 @@
-h1 {
-    color: #ffffff;
+body {
+    color: #000000;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
+}
+
+header {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width=100%;
+    border-bottom: 2px solid gray;
+}
+
+#navbar {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#name {
+    position: fixed;
+    margin: -10px;
+    top: -10px;
+}
+h1 {
+    position: relative;
+    color: #ffffff;
+    font-size: 28px;
+    background-color: #339999;
+    padding: 25px;
+    width: fit-content;
+}
+
+a {
+    text-decoration: none;
+    color: #eee;
 }
