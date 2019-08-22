@@ -55,11 +55,12 @@ h1 {
     width: fit-content;
 }
 
-a {
+a:link {
     text-decoration: none;
     color: #666;
 }
 
+/* makes links underlined when hovered over */
 a:hover {
     text-decoration: underline;
 }
