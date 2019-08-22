@@ -66,6 +66,10 @@ a:hover {
     text-decoration: underline;
 }
 
+a:focus {
+    text-decoration: underline;
+}
+
 /* float photo to text wrap */
 .photo {
     width: 300px;
@@ -77,7 +81,7 @@ a:hover {
 .portfolio {
     width: 300px;
     height: 200px;
-    opacity: 0.5;
+    opacity: 0.25;
 }
 
 #portfolio {
@@ -97,23 +101,33 @@ a:hover {
 
 /* used for content */
 h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     font-size: 28px;
 }
 
-/* make images 100% opacity when mouseover */
-img:hover {
+/* opacity change when hover over portfolio images */
+#portfolio:hover .portfolio {
     opacity: 1.0;
+    transition: 1s;
 }
 
-h3 {
+#portfolio:hover .label {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+/* used for portfolio labels */
+.label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
     color: #FFFFFF;
     background-color: #4aaaa5;
     text-align: center;
     font-size: 18px;
     padding: 20px;
-    bottom: 100px;
+    bottom: 80px;
+    font-weight: lighter;
 }
 
 form {
@@ -121,13 +135,16 @@ form {
 }
 
 input {
-    margin: 0px 0px 10px 0px;
+    margin: 5px 0px 10px 0px;
     padding: 10px;
     width: 97.5%;
 }
 
-input.message {
-    height: 200px;
+textarea.message {
+    width: 97.7%;
+    margin: 5px 0px 10px 0px;
+    resize: none;
+    padding: 10px;
 }
 
 input.submit {
