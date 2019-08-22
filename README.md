@@ -1,9 +1,9 @@
 # Basic Portfolio: Recommended Homework Assignment
 
 ## Site Picture
-![About](assets/images/readme/readme1.png)
+![About](assets/images/readme/readme1.PNG)
 
-![Portfolio](assets/images/readme/readme2.png)
+![Portfolio](assets/images/readme/readme2.PNG)
 
 ![Contact](assets/images/readme/readme3.png)
 
