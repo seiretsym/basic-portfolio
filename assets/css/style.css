@@ -21,7 +21,9 @@ footer {
     text-align: center;
     width: 100%;
     padding: 30px 0px 10px 0px;
+    border-top: 8px solid #4aaaa5;
 }
+
 #nav {
     float: right;
     margin: 0px 10px;
@@ -44,6 +46,7 @@ footer {
     /* border: 1px solid black; - lets me see how big the element is*/
     align-items: stretch;
 }
+/* used for logo */
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
@@ -55,6 +58,10 @@ h1 {
 a {
     text-decoration: none;
     color: #666;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* float photo to text wrap */
@@ -69,16 +76,23 @@ a {
     width: 400px;
     height: 200px;
     margin: 10px;
+    opacity: 0.5;
 }
+
 #content {
     background-color:#FFFFFF;
     margin-top: 20px;
     margin-bottom: 80px;
     padding: 20px;
-    align-items: center;
 }
 
+/* used for content */
 h2 {
     color: #4aaaa5;
     font-size: 28px;
+}
+
+/* make images 100% opacity when mouseover */
+img:hover {
+    opacity: 1.0;
 }
