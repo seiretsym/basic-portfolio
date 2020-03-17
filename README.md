@@ -13,6 +13,7 @@
 - Git
 - GitHub
 - VSCode
+- MAGIC!
 
 ## Summary
 Basic Portfolio that contains 3 pages. Header and footer remains consistent throughout the pages and the main content body changes as the user changes pages. Utilized floats in this layout for styling navbar and text-wrapping around the photo.
